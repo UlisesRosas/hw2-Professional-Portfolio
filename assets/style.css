@@ -4,6 +4,7 @@
   padding: 0;  
 }
 
+/* variables for 3 main colors */
 :root {
     --primary-color: rgb(186, 190, 250);
     --secondary-color: rgb(16, 238, 227);
