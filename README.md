@@ -2,7 +2,7 @@
 Portfolio website
 
 ## Purpose 
-Website to shold coding projects and skills 
+Website to shows coding projects and skills 
 
 ## Built with 
 *Html 

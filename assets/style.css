@@ -4,3 +4,8 @@
   padding: 0;  
 }
 
+:root {
+    --primary-color: rgb(186, 190, 250);
+    --secondary-color: rgb(16, 238, 227);
+    --tertiary-color: rgb(42, 42, 95);
+}
