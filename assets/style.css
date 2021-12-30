@@ -17,58 +17,57 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* begining of header Style */
 /* header background color and flexbox */
 header {
-    padding: 20px 35px;
+    padding: 20px 35px 0 0;
     background-color: rgb(53, 52, 52);
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     color: var(--secondary-color);
     top: 0;
 }
 
-header a {
-    text-decoration: none;
-    color: var(--secondary-color);
-}
 
-header h1 {
-    margin: 0 auto;
-}
-
-header h1 a {
-    color: rgb(53, 52, 52);
-    background-color: var(--secondary-color);
-    display:flex;
-    margin: 0 auto;
+header a img {
     width: 50%;
-}
-
-
-header h1 a img {
-    width: 10%;
-    flex: 1 12%;
-}
-
-header li {
-    list-style: none;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 header nav {
     margin:7px 0;
     display: flex;
-    margin: auto auto;
 }
 
 header nav ul {
     display: flex;
     flex-wrap: wrap;
+    margin:auto;
 }
 
+header ul li {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
+header nav ul li a {
+    color: var(--secondary-color);
+    display: inline;
+    padding: 10px 15px;
+    border-bottom: 15px;
+    text-decoration: none;
+ 
+}
 
-
-
+.header-card {
+    color: rgb(53, 52, 52);
+    background-color: var(--secondary-color);
+    display:flex; 
+    width: 9%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+/* End of header style */
 
