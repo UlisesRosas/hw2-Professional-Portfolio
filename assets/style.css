@@ -32,6 +32,7 @@ header {
 
 header a img {
     width: 50%;
+    display: flex;
 }
 
 header nav {
@@ -57,7 +58,7 @@ header nav ul li a {
     padding: 10px 15px;
     border-bottom: 15px;
     text-decoration: none;
- 
+    font-weight: bold;
 }
 
 .header-card {
@@ -67,7 +68,29 @@ header nav ul li a {
     width: 9%;
     text-decoration: none;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
 }
-/* End of header style */
+/* End of header style */ 
+
+/* hero section style */
+.hero {
+    background-image: url(./images/youtube-banner-templates.jpeg);
+    background-size: cover;
+    display: flex;  
+    align-items: flex-start;
+    background-position: center;
+    background-position: 80%;
+    top: -50px;
+}
+
+
+.hero h1 {
+    font-size: 35px;
+    margin: 214px 35px 35px auto;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    font-weight: bold;
+    display: flex;
+}
+/* end of Hero section */
 
