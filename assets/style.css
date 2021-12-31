@@ -108,7 +108,7 @@ header nav ul li a {
     padding-right: 15px;
     color: var(--tertiary-color);
    border-style: solid;
-   border-left: 5px;
+   border-left: 1px;
    border-top: 1px;
     border-bottom: 1px;
 }
@@ -117,4 +117,35 @@ header nav ul li a {
 .about-me p{
     line-height: 1.5;
 }
-/* about me section end */
+/* about me section end */ 
+
+/* Begining of work section */
+ .work {
+     display: flex;
+     margin: 60px 100px;
+     color: var(--tertiary-color);
+ } 
+
+ .work h2 {
+    margin: 0 30px 0 9px;
+    padding-right: 15px;
+    border-style: solid;
+    border-left: 1px;
+    border-top: 1px;
+     border-bottom: 1px;
+ }
+ 
+ .work div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+ } 
+
+ .work div a {
+     text-decoration: none;
+     display: flex;
+     margin: 0 10px 0 10px;
+     color: var(--tertiary-color);
+}
+/* End of work section */
