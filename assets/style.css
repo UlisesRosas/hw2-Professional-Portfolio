@@ -27,6 +27,7 @@ header {
     justify-content: space-between;
     color: var(--secondary-color);
     top: 0;
+    padding: 15px 10px 15px 10px;
 }
 
 
@@ -65,16 +66,17 @@ header nav ul li a {
     color: rgb(53, 52, 52);
     background-color: var(--secondary-color);
     display:flex; 
-    width: 9%;
     text-decoration: none;
     font-weight: bold;
     font-size: 40px;
+    padding: 10px;
 }
+
 /* End of header style */ 
 
 /* hero section style */
 .hero {
-    background-image: url(./images/youtube-banner-templates.jpeg);
+    background-image: url(./images/croped-image.png);
     background-size: cover;
     display: flex;  
     align-items: flex-start;
@@ -107,12 +109,8 @@ header nav ul li a {
     margin: 0 30px 0 0;
     padding-right: 15px;
     color: var(--tertiary-color);
-   border-style: solid;
-   border-left: 1px;
-   border-top: 1px;
-    border-bottom: 1px;
+    border-right: solid 1px;
 }
-
  
 .about-me p{
     line-height: 1.5;
@@ -129,23 +127,90 @@ header nav ul li a {
  .work h2 {
     margin: 0 30px 0 9px;
     padding-right: 15px;
-    border-style: solid;
-    border-left: 1px;
-    border-top: 1px;
-     border-bottom: 1px;
+    border-right: solid 1px;
  }
  
  .work div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content: center;
  } 
 
- .work div a {
-     text-decoration: none;
+ .project-item {
      display: flex;
-     margin: 0 10px 0 10px;
+     align-items: flex-end;
+     flex-basis: 47%;
+     min-height: 150px;
+     margin: 10px;
+     border:5px solid var(--tertiary-color);
+ }
+
+ .project-item:first-child {
+     min-height: 400px;
+     flex-basis: 100%;
+ }
+
+ .project-item div {
+     padding: 10px 10px;
+     display: flex;
+     align-items: center;
      color: var(--tertiary-color);
+ }
+
+ .item1 {
+   background-image: url(./images/runbuddy-sized.png);
+    background-size: cover;
+ }
+ .item2 {
+    background-image: url(./images/item2-image.jpg);
+ }
+
+ .item3 {
+    background-image: url(./images/item3-image.jpg)
 }
+
+.item4 {
+    background-image: url(./images/item4-image.jpg)
+}
+
+.item5 {
+    background-image: url(./images/item5-image.jpg)
+}
+
+.project-container a:hover {
+    opacity: 0.5;
+}
+
 /* End of work section */
+
+/* contact me section */
+.contact {
+    display: flex;
+    margin: 60px 79px;
+    color: var(--tertiary-color);
+
+} 
+
+.contact h2 {
+    margin: 0 30px 0 0;
+    padding-right: 15px;
+    border-right: solid 1px;
+}
+
+.contact ul {
+    list-style: none;
+    display: flex;
+    margin:  0 10px 0 10px;
+    align-items: flex-end;
+}
+
+.contact ul li {
+    margin-right: 300px;
+    border-bottom: solid 5px;
+}
+
+
+.contact ul li a {
+    text-decoration: none;
+}
+/* End of contact section */
