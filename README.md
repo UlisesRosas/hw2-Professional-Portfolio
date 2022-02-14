@@ -12,4 +12,5 @@ Website to shows coding projects and skills
 "" 
 
 ## Contributions 
-Made by: [Ulises Rosas]
+Made by: [Ulises Rosas] 
+
